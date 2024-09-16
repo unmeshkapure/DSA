@@ -62,13 +62,7 @@ bool CheckNumber(int Arr[],int iSize,int iValue)
     return bFlag;
 
 }
-id ReverseElements(int Arr[],int iSize)
-{
-    for(int iCnt=0;iCnt<iSize;iCnt++)
-    {
-        Swap(Arr[iCnt],Arr[iCnt+1]);
-    }
-}
+
 
 
 
@@ -108,7 +102,7 @@ int main()
     {
         printf("the number is not present in array");
     }
-    ReverseElements(Brr,iCount);
+    
     Reverse(Brr,iCount);
     return 0;
 }
